@@ -1,0 +1,138 @@
+/* importing a google font online */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* default attributes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* giving the body a background color */
+body {
+  background-color: rgb(0, 132, 255);
+}
+
+/* for all calculator content */
+
+.all-calc-content {
+  background-color: #d2e4f0;
+  width: 400px;
+  border-radius: 50px;
+  margin-right: 50px;
+  height: 107%;
+}
+
+/* styles for table tag */
+table {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border-spacing: 15px;
+}
+
+/* first paragraph */
+.pt {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* second paragraph */
+.ptt {
+  font-size: xx-large;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+/* styling the general paragraph tag */
+p {
+  color: #1f567a;
+}
+
+/* styling the input screen */
+.screen-result {
+  background-color: #eeeeee;
+  padding-top: 40px;
+  padding-right: 10px;
+  margin-bottom: -20px;
+  padding-bottom: 5px;
+  outline: 2px solid #22232404;
+  text-align: right;
+  box-shadow: 0px 0px 1px 1px #296a4d59;
+}
+
+/* styling the cell of the table */
+
+.yellow {
+  background-color: #f09d21;
+  color: white;
+}
+
+.red {
+  background-color: #f5595e;
+  color: white;
+}
+
+.blue {
+  background-color: #4ba3f9;
+  color: white;
+}
+
+.dblue {
+  background-color: #31678c;
+  color: white;
+}
+
+/* this is for the data of the table */
+td {
+  border-radius: 19px;
+  border: 1px solid;
+  border-color: #dd0a0a2a;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* this for the content of the calculator */
+.content-calc {
+  padding-right: 20px;
+  padding-top: 70px;
+  padding-left: 20px;
+}
+
+/* for the entire calculator */
+.all-wrapper {
+  display: flex;
+  height: 640px;
+  left: 25%;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -50px;
+}
+
+/* for the h2 tag */
+
+h2 {
+  margin-top: 270px;
+  font-size: 50px;
+  margin-left: -60px;
+  width: 70%;
+  color: #ffffff;
+}
+
+/* for the first paragraph tag */
+.head {
+  margin-left: -60px;
+  width: 70%;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+}
+
+/* container for h2 and first paragraph */
+.infor {
+  margin-right: -190px;
+}

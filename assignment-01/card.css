@@ -1,0 +1,73 @@
+.card_section {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* padding: 0 250px; */
+    margin-left: -30px;
+    text-align: center;
+    background-color: white;
+    background-color: white;
+    box-shadow: 2px 2px 20px rgb(145, 151, 138);
+    width: 300px;
+}
+
+.card_section3 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* padding: 0 220px; */
+    text-align: center;
+    background-color: white;
+    background-color: white;
+    box-shadow: 2px 2px 20px rgb(145, 151, 138);
+    width: 300px;
+    margin-left: -30px;
+}
+
+p {
+    text-transform: uppercase;
+}
+
+.card_section2 {
+    text-align: center;
+    background-color: white;
+    background-color: white;
+    box-shadow: 2px 2px 20px rgb(145, 151, 138);
+    width: 300px;
+    margin-left: 50px;
+}
+
+.sm {
+    font-size: small;
+    margin-top: 15px;
+    margin-bottom: -15px;
+}
+
+.card_section4 {
+    text-align: center;
+    background-color: white;
+    box-shadow: 2px 2px 20px rgb(145, 151, 138);
+    width: 300px;
+    margin-left: 50px;
+}
+
+.everything {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* text-align: center; */
+    padding: 0 140px;
+}
+ .dothis1, .dothis2 {
+     display: flex;
+     /* justify-content: space-between; */
+     justify-content: center;
+ }
+
+ .jobexp {
+     margin-top: 120px;
+     font-weight: bold;
+ }
+
+ .edu {
+     font-weight: bold;
+ }

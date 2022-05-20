@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    /* background-image: url(https://images.unsplash.com/photo-1515343480029-43cdfe6b6aae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80); */
+background-repeat: no-repeat;
+background-image: url(./head2.jpg);
+background-size: cover;
+background-position: 50%;
+height: 85vh;
+position: relative;
+}
+
+
+.profile_picture {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color: white;
+}
+
+.btn.click1 {
+    background-color: white;
+    color: #9b6c5c;
+}
+
+.btn.click1:hover {
+    background-color: #9b6c5c;
+    opacity: 0.8;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn {
+    background-color: #9b6c5c;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.job {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.full_details{
+    position: relative;
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.svg_icon svg{
+    width: 30px;
+    height: 30px;
+    fill: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    transition: 0.5s;
+    margin: 10px;
+}
+
+.full_details h2 {
+    color: white;
+    text-transform: uppercase;
+    margin: 10px 0;
+    /* letter-spacing: 0.5px; */
+}
+
+.header_overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 85vh;
+    width: 100%;
+    top: 0;
+}
+
+.navLinks{
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    transition: 0.5s;
+}
+.navLinks.active {
+    color:#9b6c5c;
+}
+
+.navLinks:hover {
+    color: #9b6c5c; 
+}
+
+.section h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #9b6c5c;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    /* text-align: center; */
+    margin-top: 100px;
+}
+
+.information{
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* main body content */
+
+main {
+    margin-top: 90px;
+
+}
+
+ul{
+    margin-left: 18px;
+    margin-top: 5px;
+    
+}
+
+p.goals {
+    margin-top: 10px;
+    color: #9b6c5c;
+}
+
+h3{
+   color: #9b6c5c;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+}
+
+.section {
+    padding: 0px;
+}
+
+
+.words {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: -95px;
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.name_brief {
+    font-size: 15px;
+    color: #9b6c5c;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.mine {
+    width: 250px;
+    height: auto;
+    border-right: 3px dotted #9b6c5c;
+    border-top: 3px dotted #9b6c5c;
+}
+
+.about_me {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: -40px;
+}
+
+.spec {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.brief {
+    line-height: 1.5;
+    width: 110%;
+}
+
+
+
+
+/* Education and Experience */
+
+.card_section {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* padding: 0 250px; */
+    margin-left: -30px;
+    text-align: center;
+    background-color: white;
+    background-color: white;
+    box-shadow: 2px 2px 20px rgb(145, 151, 138);
+    width: 300px;
+    padding-top: 20px;
+    font-weight: 600;
+color: #9b6c5c;
+}
+
+.card_section3 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* padding: 0 220px; */
+    text-align: center;
+    background-color: white;
+    background-color: white;
+    box-shadow: 2px 2px 20px rgb(145, 151, 138);
+    width: 300px;
+    margin-left: -30px;
+    padding-top: 20px;
+    font-weight: 600;
+color: #9b6c5c;
+}
+
+p {
+    text-transform: uppercase;
+}
+
+.card_section2 {
+    text-align: center;
+    background-color: white;
+    background-color: white;
+    box-shadow: 2px 2px 20px rgb(145, 151, 138);
+    width: 300px;
+    margin-left: 50px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    transition: 0.5s;
+    font-weight: 600;
+color: #9b6c5c;
+}
+
+.card_section:hover,  .card_section2:hover, .card_section3:hover, .card_section4:hover {
+    bottom: 20px;
+    color: white;
+    background-color: #9b6c5c;
+    transition: 0.7s;
+    position: relative;
+}
+
+.sm {
+    font-size: small;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.card_section4 {
+    text-align: center;
+    background-color: white;
+    box-shadow: 2px 2px 20px rgb(145, 151, 138);
+    width: 300px;
+    margin-left: 50px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+font-weight: 600;
+color: #9b6c5c;
+}
+
+.everything {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* text-align: center; */
+    padding: 0 140px;
+    margin-left: 70px;
+    justify-content: center;
+}
+
+ .dothis1, .dothis2 {
+     display: flex;
+     /* justify-content: space-between; */
+     justify-content: center;
+ }
+
+ .jobexp {
+     margin-top: 120px;
+     font-weight: bold;
+     color: #9b6c5c;
+     margin-left: -20px;
+ }
+
+ .edu {
+     font-weight: bold;
+     color: #9b6c5c;
+ }
+
+
+
+/* Hobbies and skills */
+
+
+
+.card_section10 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* padding: 0 250px; */
+    margin-left: -30px;
+    /* text-align: center; */
+    background-color: white;
+    background-color: white;
+    box-shadow: 2px 2px 20px rgb(145, 151, 138);
+    width: 300px;
+    padding-top: 20px;
+}
+
+.card_section20 {
+    /* text-align: center; */
+    background-color: white;
+    background-color: white;
+    box-shadow: 2px 2px 20px rgb(145, 151, 138);
+    width: 300px;
+    margin-left: 50px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    transition: 0.5s;
+}
+
+.institution10 {
+    padding: 20px 100px;
+    font-size: 18px;
+    /* font-weight: bold; */
+}
+
+.service_section h3 {
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* service section */
+
+
+
+body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+
+.service_section h2 {
+    color: white;
+    margin-bottom: 80px;
+    margin-top: 100px;
+    padding-top: 50px;
+    color: white;
+    background-color: #9b6c5c;
+    padding-bottom: 50px;
+
+}
+
+.exp {
+    background-color: whitesmoke;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+
+
+/* work with me section */
+
+.form_section form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px; 
+}
+
+.form_group input, select {
+    border: 1px solid #9b6c5c;
+    border-radius: 5px;
+    padding: 10px;
+    width: 400px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.form_group textarea {
+    border: 1px solid #9b6c5c;
+    border-radius: 5px;
+    padding: 10px;
+    width: 400px;
+    height: 350px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.cont {
+    text-align: center;
+}
+
+.form_section h2 {
+    color: white;
+    background-color: #9b6c5c;
+    padding: 50px 0;
+    margin-bottom: 60px;
+}
+
+
+.form_group label {
+   display: block;
+   margin-bottom: 10px;
+}
+
+.conn {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* social media */
+.social_account_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 120px;
+}
+
+.social_account_wrapper svg {
+    width: 30px;
+    height: 30px;
+    fill: #9b6c5c;
+    
+}
+
+.social_account_wrapper svg:hover {
+    fill: black;
+    cursor: pointer;
+    position: relative;
+    bottom: 10px;
+}

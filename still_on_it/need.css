@@ -98,7 +98,7 @@ header {
 }
 
 .first-page-content {
-  margin-left: 210px;
+  margin-left: 160px;
   margin-top: 120px;
   position: absolute;
 }
@@ -124,20 +124,24 @@ header {
 /* goals */
 
 .goals {
-  position: absolute;
+  /* position: absolute; */
   margin-top: 70px;
   color: white;
   display: grid;
   gap: 20px;
-  padding: 0 250px;
 }
 
 .goal-1,
 .goal-2 {
+  padding: 0 250px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: minmax(200px, auto);
   gap: 20px;
+}
+
+.goal-1 {
+  margin-top: 50px;
 }
 
 .firstbox {
@@ -155,7 +159,8 @@ header {
 
 .goals p.sub-p {
   text-align: center;
-  margin-bottom: 40px;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .goals h2 {
@@ -167,16 +172,17 @@ h3 {
 }
 
 .goals hr {
-  margin: 0 350px;
+  width: 100px;
   border: 2px solid tomato;
   margin-bottom: 10px;
+  margin: 0 auto;
 }
 
 /* second page */
 
 .second-page {
-    position: absolute;
-    margin-top: 1000px;
+    /* position: absolute; */
+    margin-top: 60px;
 }
 
 .second-page img {
@@ -228,4 +234,8 @@ footer svg {
     color: white;
     margin: 0 5px;
     margin-top: 10px;
+}
+
+footer p {
+  color: white;
 }

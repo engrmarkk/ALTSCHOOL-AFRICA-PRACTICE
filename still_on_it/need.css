@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000000;
+}
+
+header {
+  background-color: white;
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  position: fixed;
+  transition: all 0.5s;
+  z-index: 1;
+  top: 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links ul {
+  list-style: none;
+}
+
+.links ul li a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: black;
+  font-size: large;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 10px 15px;
+}
+
+.links ul li a:hover {
+  background-color: tomato;
+  color: white;
+  transition: 0.5s;
+}
+
+/* first page */
+
+.first-page {
+  background-image: url(./two.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  top: 0;
+}
+
+.first-page h2 {
+  margin-top: 130px;
+  color: white;
+  font-size: 55px;
+}
+
+.first-page a {
+  text-decoration: none;
+  padding: 10px 20px;
+
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 12px;
+  font-size: small;
+  font-weight: bolder;
+}
+
+.first-page a:hover {
+  background-color: tomato;
+  color: rgb(255, 255, 255);
+  transition: 0.7s;
+  border: 2px solid white;
+  font-size: medium;
+}
+
+.first-page-content {
+  margin-left: 210px;
+  margin-top: 120px;
+  position: absolute;
+}
+
+.first-page p.one {
+  margin-bottom: 40px;
+  color: rgb(221, 147, 147);
+  font-size: x-large;
+  word-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.first-page p.two {
+  color: white;
+  width: 45%;
+  margin-top: -10px;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+/* goals */
+
+.goals {
+  position: absolute;
+  margin-top: 70px;
+  color: white;
+  display: grid;
+  gap: 20px;
+  padding: 0 250px;
+}
+
+.goal-1,
+.goal-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: minmax(200px, auto);
+  gap: 20px;
+}
+
+.firstbox {
+  text-align: center;
+  padding: 70px 40px;
+  background-color: rgb(8, 8, 8);
+  height: auto;
+  width: fit-content;
+}
+
+.goals svg {
+  color: tomato;
+  margin-bottom: 30px;
+}
+
+.goals p.sub-p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.goals h2 {
+  text-align: center;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+.goals hr {
+  margin: 0 350px;
+  border: 2px solid tomato;
+  margin-bottom: 10px;
+}
+
+/* second page */
+
+.second-page {
+    position: absolute;
+    margin-top: 1000px;
+}
+
+.second-page img {
+    width: 30%;
+    margin-top: 100px;
+}
+
+.second-page p {
+    color: white;
+}
+
+.second-page h2 {
+    color: white;
+    text-align: center;
+}
+
+.second-page hr {
+    width: 5%;
+    margin: 0 auto;
+    border: 2px solid tomato;
+  margin-top: 10px;
+}
+
+.second-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 60px 200px;
+    gap: 60px;
+}
+
+.second-11 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin: 150px 200px;
+    gap: 60px;
+}
+
+/* footer */
+footer {
+    background-color: rgb(8, 8, 8);
+    font-size: x-small;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+footer svg {
+    color: white;
+    margin: 0 5px;
+    margin-top: 10px;
+}

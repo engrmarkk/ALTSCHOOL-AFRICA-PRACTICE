@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:"Poppins", Arial, Helvetica, sans-serif ;
+}
+
+.nav-links ul {
+  display: flex;
+}
+
+.navigation h2 {
+    color: white;
+}
+
+
+
+.nav-links ul li {
+  margin-left: 30px;
+  list-style: none;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
+header {
+    background: url(./jef.jpg);
+    width: 100%;
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+/* second section */
+
+.title img.title-image {
+    width: 8%;
+    border-radius: 50%;
+    margin-top: 80px;
+}
+
+.title {
+    position: relative;
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 60px; */
+}
+
+
+.title h2 {
+    text-transform: uppercase;
+    color: white;
+    margin-top: 5px;
+}
+
+.title p {
+    color: white;
+}
+
+.title svg {
+    width: 30px;
+    height: 30px;
+    fill: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    transition: 0.5s;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.title .social-media {
+    margin-top: 15px;
+}
+
+.title button {
+    padding:13px;
+    border-radius: 20px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.title .title-btn {
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.title button:hover {
+    background: green;
+    color: white;
+    transition: 1s;
+}
